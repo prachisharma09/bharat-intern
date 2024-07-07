@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+h1,h2{
+    text-align: center;
+}
+.input-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.input-section label{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.input-section input[type="number"], .input-section input[type="date"]{
+    padding: 5px;
+    margin-right: 10px;
+}
+.input-section button{
+    padding: 5px 10px;
+    background-color: rgb(220, 84, 123);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+.expenses-list{
+    margin: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+
+}
+th{
+    background-color: rgb(233, 180, 244);
+    color: rgb(12, 1, 1);
+}
+tfoot td{
+    font-weight: bold;
+}
+.delete-btn{
+    padding: 5px 10px;
+    background-color: rgb(9, 238, 230);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+body {
+    background-image: url(https://img.freepik.com/premium-vector/stock-market-investment-trading-candlestick-chart-trend-graphic-vector-design_546559-1031.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
